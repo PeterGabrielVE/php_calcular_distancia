@@ -84,10 +84,28 @@
   </nav>
 </div>
 
-<div class="position-relative">
-	<?php
-		include_once 'getDistanceMapBox.php';
-	?>
+<div style="margin: 5rem;">
+  <div class="col-sm-12">
+     <h2>Mapbox/PHP/MySQL</h2>
+  </div>
+  <div class="col-sm-12">
+     <div class="container">
+        <form action="" id="signupForm">
+        <div class="col-md-12 col-sm-6"></div>
+          <div class="row">
+            <label for="lat">Latitud:</label>
+            <input type="text" id="lat" name="lat" placeholder="Ingrese Latitud">
+          </div>
+          <div class="row">
+            <label for="lng">Longitud:</label>
+            <input type="text" id="lng" name="lng" placeholder="Ingrese Longitud">
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit" >
+            </div>
+        </form>
+    </div>
+  </div>
 </div>
 	
 </body>
