@@ -29,6 +29,12 @@
 </head>
 <body>
 
+<?php
+
+include 'functions.php';
+
+?>
+
 
 <!-- Navigation -->
 <div class="fixed-top">
