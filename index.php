@@ -20,6 +20,9 @@
 <link rel="stylesheet" href="css/style.css">
 
 
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
+<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.css' type='text/css' />
+
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
    
@@ -108,5 +111,11 @@
   </div>
 </div>
 	
+
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
+
+<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.min.js'></script>
+
+
 </body>
 </html>
