@@ -8,7 +8,7 @@ if(isset($_GET['add_location'])) {
 
 
 function add_location(){
-    $con=mysqli_connect ("localhost", 'root', '','test');
+    $con=mysqli_connect ("localhost", 'root', '','locations_db');
     if (!$con) {
         die('Not connected : ' . mysqli_connect_error());
     }
@@ -22,13 +22,13 @@ function add_location(){
         mysqli_real_escape_string($con,$lng));
 
     $result = mysqli_query($con,$query);
-    echo json_encode("Inserted Successfully");
+    echo json_encode("Insertado exitosamente");
     if (!$result) {
         die('Invalid query: ' . mysqli_error($con));
     }
 }
 function get_saved_locations(){
-    $con=mysqli_connect ("localhost", 'root', '','test');
+    $con=mysqli_connect ("localhost", 'root', '','locations_db');
     if (!$con) {
         die('Not connected : ' . mysqli_connect_error());
     }

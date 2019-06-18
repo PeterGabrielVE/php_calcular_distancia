@@ -188,7 +188,16 @@ input[type=submit] {
  input[type=submit]:hover {
             background-color: #;
         }
-#map { position:absolute;left: 350px; top:350px; bottom:0px;height:550px ;width:660px; }
-        .geocoder {
-            position:absolute;left: 350px; top:290px;
+#map{ 
+    position:absolute;
+    height:300px;
+    width:300px; 
+      
+}
+
+.geocoder {
+            position:absolute;
+            width: 300px;
+            height: 300px;
+           
         }
