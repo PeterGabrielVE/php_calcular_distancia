@@ -20,8 +20,8 @@
 <link rel="stylesheet" href="css/style.css">
 
 
-<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
-<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.css' type='text/css' />
+<link href='css/mapbox-gl.css' rel='stylesheet' />
+<link rel='stylesheet' href='css/mapbox-gl-geocoder.css' type='text/css' />
 
 
    

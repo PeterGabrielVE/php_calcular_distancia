@@ -38,13 +38,13 @@
  	</div>
 </footer>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
-<script type="text/javascript" src="js/script.js"></script>
-<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.3.0/mapbox-gl-geocoder.min.js'></script>
+<script src="js/jquery-3.3.1.slim.min.js" type="text/javascript"></script>
+<script src="js/popper.min.js" type="text/javascript"></script>
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src='js/mapbox-gl.js' type="text/javascript"></script>
+<script src="js/script.js" type="text/javascript"></script>
+<script src='js/mapbox-gl-geocoder.min.js'></script>
 <script type="text/javascript">
   
   var saved_markers = <?= get_saved_locations() ?>;

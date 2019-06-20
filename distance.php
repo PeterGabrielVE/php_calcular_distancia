@@ -9,7 +9,7 @@
     </div>
     <div class="row">
       <div class="col-md-6">
-            <form action="" id="signupForm">
+            <form action="" id="localForm">
 
                 <div class="row">
                   <label for="lat">Latitud:</label>
